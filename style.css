@@ -1,0 +1,44 @@
+body {
+	font-family: Raleway;
+	color: #333333;
+	margin: 0;
+	padding: 0 50px;
+}
+
+.b-title{
+	font-size: 120px;
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.b-description{
+	text-transform: uppercase;
+}
+
+.o-container{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.b-btn{
+	width: 200px;
+	border: 2px solid #333333;
+	padding:10px;
+	color: #333333;
+	display: inline-block;
+	text-decoration:none;
+	text-align: center;
+	margin: 10px;
+	transition: 0.25s all ease-in-out;
+}
+
+.b-btn:hover{
+	color: #333333;
+	text-decoration: none;
+	background-color: #333333;
+	color: #FFFFFF;
+}
